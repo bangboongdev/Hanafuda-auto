@@ -25,6 +25,7 @@ copy(refreshToken);
     - refresh_token : paste refresh_token đã copy ở trên 
 
 => Run code node main.js
+![image](https://github.com/user-attachments/assets/fee37747-7b14-4ced-a3a4-6d33c336c73d)
 
 Done
 
