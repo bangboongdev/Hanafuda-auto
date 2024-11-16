@@ -62,8 +62,15 @@ export const gardenForCurrentUser = JSON.stringify({
 });
 
 export const issueGrowAction = JSON.stringify({
-  query: "mutation issueGrowAction {\n  issueGrowAction\n}",
-  operationName: "issueGrowAction",
+  query: `mutation ExecuteGrowAction($withAll: Boolean) {
+  executeGrowAction(withAll: $withAll) {
+    baseValue
+    leveragedValue
+    totalValue
+    multiplyRate
+  }
+}`,
+  variables: {"withAll":true}
 });
 
 export const commitGrowAction = JSON.stringify({

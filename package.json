@@ -1,12 +1,12 @@
 {
-  "name": "xterio_big",
+  "name": "HanaNetwork",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "big4luck",
+  "author": "crypus",
   "type": "module",
   "license": "ISC",
   "dependencies": {
